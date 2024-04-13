@@ -1,0 +1,25 @@
+name: ai_env_1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - xgboost
+  - lightgbm
+  - catboost
+  - scikit-learn
+  - yellowbrick
+  - scipy
+  - tqdm
+  - plotly
+  - dataprep
+  - pandas-profiling
+  - ipykernel
+  - pandas
+  - missingno
+  - basemap
+  - threadpoolctl>=3
+  - pip
+  - flask
+  - sqlalchemy
+  - pyarrow>=14

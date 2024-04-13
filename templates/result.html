@@ -1,0 +1,31 @@
+{% extends 'layout/base.html' %}
+
+{% block css %}
+    <style>
+        body {
+            background-color: #5caaf8;
+        }
+    </style>
+{% endblock css %}
+    
+{% block content %}
+<div class="container my-5">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Predictions</h1>
+            <div class="lead fs-6">Submitted data</div>
+            <div class="table-responsive">
+                {{form_data|safe}}
+            </div>
+            Based on the biomarker data you provided, the model predicts
+            <p class="col-md-8 fs-1">
+                {{prediction}}
+            </p>
+            <a class="btn btn-primary btn-lg" href="/prediction" role="button">
+               Try Another Data
+            </a>
+        </div>
+    </div>
+    
+</div>
+{% endblock content %}
