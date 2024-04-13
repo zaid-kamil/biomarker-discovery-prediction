@@ -1,0 +1,1 @@
+should contain all the static files that are used in the project. This includes the data files, the images, and the css files. The data files are stored in the data folder, the images are stored in the images folder, and the css files are stored in the css folder. The data folder should contain the following files:
